@@ -1,12 +1,10 @@
-# Smartphone-Usage-Pattern-Analysis📱
+# Smartphone-Usage-Pattern-Analysis
 
 ## Project Overview
 
 This project performs **Exploratory Data Analysis (EDA)** on a dataset of mobile users to understand patterns in user behavior.  
 The analysis investigates screen time, app usage, data consumption, operating system usage, and user behavior classes.  
 The goal of this project is to gain insights into user habits, identify trends, and understand how different factors like installed apps, gender, and OS influence usage.
-
----
 
 ## Dataset
 
@@ -24,14 +22,10 @@ The dataset contains information about mobile users, including:
 
 Total records: **700** 
 
----
-
 ## Dataset Source
 
 The dataset is a synthetic or collected dataset for **user behavior analysis**.  
 *(If you have a specific source, include the link here.)*
-
----
 
 ## Tools and Technologies
 
@@ -42,8 +36,6 @@ The following tools and libraries were used:
 * Matplotlib
 * Seaborn
 * Google Colab / Jupyter Notebook
-
----
 
 ## Analysis Performed
 
@@ -59,16 +51,12 @@ The following steps were conducted:
 * Operating System Usage Analysis
 * Feature Correlation Heatmap
 
----
-
 ## Key Insights
 
 * Users with **more installed apps tend to spend more time** on their phones.  
 * **Screen time varies** across different user behavior classes.  
 * **Data usage patterns differ** between male and female users.  
 * **Android and iOS users show different usage distributions**.
-
----
 
 ## Visualizations
 
@@ -90,15 +78,11 @@ The following steps were conducted:
 ### Feature Correlation Heatmap
 ![Correlation Heatmap](img/correlation_heatmap.png)
 
----
-
 ## Conclusion
 
 This analysis provides insights into **mobile user behavior** and usage patterns.  
 It shows how factors like the number of apps, gender, and operating system influence screen time and data consumption.  
 The visualizations and statistics help identify **trends that can guide app development, marketing strategies, or user engagement improvements**.
-
----
 
 ## Project Files
 
@@ -107,13 +91,10 @@ The visualizations and statistics help identify **trends that can guide app deve
 * `img/` – Folder containing generated visualizations  
 * `README.md` – This file  
 
----
-
 ## How to Run the Project
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/priyavarshini-codes/Smartphone-Usage-Pattern-Analysis.git
 
 2. Navigate to the project folder:
@@ -128,6 +109,7 @@ pip install pandas matplotlib seaborn
 
 Project Structure
 
+---
 user_behavior_analysis
 │
 ├── data
@@ -143,4 +125,6 @@ user_behavior_analysis
 │
 ├── user_behavior_analysis.ipynb
 ├── README.md
-└── requirements.txt (optional)
+└── requirements.txt 
+
+---
