@@ -1,4 +1,4 @@
-# Smartphone-Usage-Pattern-Analysis
+# Smartphone Usage Pattern Analysis
 
 ## Project Overview
 
@@ -24,8 +24,8 @@ Total records: **700**
 
 ## Dataset Source
 
-The dataset is a synthetic or collected dataset for **user behavior analysis**.  
-*(If you have a specific source, include the link here.)*
+Kaggle – Mobile Device Usage and User Behavior Dataset
+https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset
 
 ## Tools and Technologies
 
@@ -61,22 +61,22 @@ The following steps were conducted:
 ## Visualizations
 
 ### Screen Time Distribution
-![Screen Time Distribution](img/screen_time_distribution.png)
+![Screen Time Distribution](images/screen_time_distribution.png)
 
 ### Apps Installed vs App Usage
-![Apps vs Usage](img/apps_vs_usage.png)
+![Apps vs Usage](images/apps_vs_usage.png)
 
 ### Data Usage by Gender
-![Data Usage by Gender](img/data_usage_by_gender.png)
+![Data Usage by Gender](images/data_usage_by_gender.png)
 
 ### User Behavior Class Distribution
-![User Behavior Distribution](img/user_behavior_distribution.png)
+![User Behavior Distribution](images/user_behavior_distribution.png)
 
 ### Operating System Distribution
-![OS Distribution](img/os_distribution.png)
+![OS Distribution](images/os_distribution.png)
 
 ### Feature Correlation Heatmap
-![Correlation Heatmap](img/correlation_heatmap.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ## Conclusion
 
@@ -89,7 +89,7 @@ The visualizations and statistics help identify **trends that can guide app deve
 * `user_behavior_analysis.ipynb` – Notebook containing the analysis and visualizations  
 * `user_behavior_dataset.csv` – Dataset used for analysis  
 * `img/` – Folder containing generated visualizations  
-* `README.md` – This file  
+* `README.md` – Required Python libraries
 
 ## How to Run the Project
 
@@ -97,34 +97,30 @@ The visualizations and statistics help identify **trends that can guide app deve
 
 git clone https://github.com/priyavarshini-codes/Smartphone-Usage-Pattern-Analysis.git
 
-2. Navigate to the project folder:
-
-cd <repo>
-
-3. Install required libraries:
+2. Install required libraries:
 
 pip install pandas matplotlib seaborn
 
-4. Open the notebook in Google Colab or Jupyter Notebook and run all cells to reproduce the analysis and visualizations.
+3. Open the notebook in Google Colab or Jupyter Notebook and run all cells to reproduce the analysis and visualizations.
 
-Project Structure
+## Project Structure
 
----
-user_behavior_analysis
+```
+user_behavior_analysis/
 │
-├── data
-│   └── user_behavior_dataset.csv
+├── data/
+│   └── user_behavior_dataset.csv       
 │
-├── img
+├── img/
 │   ├── screen_time_distribution.png
 │   ├── apps_vs_usage.png
 │   ├── data_usage_by_gender.png
 │   ├── user_behavior_distribution.png
 │   ├── os_distribution.png
-│   └── correlation_heatmap.png
+│   └── correlation_heatmap.png         
 │
-├── user_behavior_analysis.ipynb
-├── README.md
-└── requirements.txt 
+├── user_behavior_analysis.ipynb        
+├── README.md                            
+└── requirements.txt   
+```
 
----
